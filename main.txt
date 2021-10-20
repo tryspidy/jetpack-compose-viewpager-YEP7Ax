@@ -1,0 +1,8 @@
+// Display 10 items
+HorizontalPager(count = 10) { page ->
+    // Our page content
+    Text(
+        text = "Page: $page",
+        modifier = Modifier.fillMaxWidth()
+    )
+}
